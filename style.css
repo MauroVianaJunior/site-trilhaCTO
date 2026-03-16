@@ -14,11 +14,12 @@ h1 {
     color: #003366;
 }
 
-.foto {
+.perfil {
     width: 150px;
     height: 150px;
     object-fit: fit;    
     border-radius: 100px;
+    border: 3px solid #003366;
 }
 .imagem{
     width: 150px;
