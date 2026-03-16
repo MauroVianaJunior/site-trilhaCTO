@@ -15,11 +15,9 @@ h1 {
 }
 
 .foto {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border: 3px solid #333;
-    border-radius: 8px;
+    width: 150px;    
+    object-fit: cover;    
+    border-radius: 50px;
 }
 .imagem{
     width: 150px;
