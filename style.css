@@ -1,28 +1,27 @@
 body{
-    background-color: #f0f0f0;
-    font-family: Arial;
-    text-align: center;
+    background-color: #e6f2ff;
+    font-family: Arial, sans-serif;    
 }
-
 .container{
     background: white;
     width: 600px;
     margin: auto;
     padding: 20px;
     border-radius: 10px;
+    text-align: center;
 }
-
+h1 {
+    color: #003366;
+}
 .foto{
     width:150px;
     height:150px;
     border-radius:50%;
 }
-
 .imagem{
     width:200px;
     margin:10px;
 }
-
 ul {
     display: inline-block;
     text-align: left;
