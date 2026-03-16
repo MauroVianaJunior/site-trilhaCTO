@@ -9,7 +9,7 @@
         font-family: Arial, sans-serif;
         background-color: #eeeeee;
         margin: 0;
-    }
+    } 
     
     .container {
         width: 800px;
@@ -27,6 +27,7 @@
         width: 100%;
         border-collapse: collapse;
         margin-top: 20px;
+        table-layout: fixed;
     }
     
     th, td {
@@ -44,6 +45,14 @@
 
     td{
       background: white;
+    }
+
+    td:first-child, th:first-child {
+      width: 80%;
+    }
+
+    td:last-child, th:last-child {
+      width: 20%;
     }
     
     .repo img {
