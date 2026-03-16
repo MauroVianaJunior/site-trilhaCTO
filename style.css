@@ -22,3 +22,8 @@ body{
     width:200px;
     margin:10px;
 }
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
