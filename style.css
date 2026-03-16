@@ -13,10 +13,13 @@ body{
 h1 {
     color: #003366;
 }
-.foto{
-    width:150px;
-    height:150px;
-    border-radius:50%;
+
+.foto {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #333;
+    border-radius: 8px;
 }
 .imagem{
     width:200px;
