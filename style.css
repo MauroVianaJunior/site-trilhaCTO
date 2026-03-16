@@ -17,7 +17,7 @@ h1 {
 .foto {
     width: 150px;
     height: 150px;
-    object-fit: cover;    
+    object-fit: fit;    
     border-radius: 100px;
 }
 .imagem{
