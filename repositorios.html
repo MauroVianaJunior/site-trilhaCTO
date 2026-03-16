@@ -68,9 +68,7 @@
         transform: scale(1.25);
     }
 
-    .botao-voltar {
-      position: absolute;
-      right: 20px;
+    botao-voltar {
       background-color: #4a6fa5;
       color: white;
       padding: 10px 16px;
@@ -78,23 +76,29 @@
       text-decoration: none;
       font-weight: bold;
     }
-
+  
     .botao-voltar:hover {
         background-color: #365785;
     }
-
+    
     .topo {
+        position: absolute;
         top: 20px;
+        right: 20px;
     }
 
     .baixo {
-        bottom: 20px;
+        display: block;
+        width: fit-content;
+        margin-left: auto;
+        margin-top: 20px;
     }
     
   </style>
 </head>
 <body>
   <div class="container">
+    
     <a href="index.html" class="botao-voltar topo">Voltar</a>
     
     <h1>1ª Série</h1>  
