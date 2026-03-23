@@ -12,11 +12,18 @@
   <button onclick="alert('Você clicou!')">
     Clique aqui
   </button>
+  <button onclick="mostrarMensagem()">
+    Clique aqui 2 
+</button>
   <br/>
   <a href="index.html" class="botao-voltar baixo">Voltar</a>
 </div>
 <script>
-    alert("Olá, mundo!");
-</script>
+    alert("Olá, mundo!"); 
+    function mostrarMensagem() {
+        let nome = prompt("Qual seu nome?");
+        alert("Olá, " + nome);
+    }
+</script>  
 </body>
 </html>
